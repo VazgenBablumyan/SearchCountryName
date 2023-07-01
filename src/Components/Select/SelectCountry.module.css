@@ -1,0 +1,14 @@
+.option{
+    background-color: aqua;
+    width: 100%;
+}
+.listBox{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 250px;
+    overflow: scroll;
+    scroll-snap-align:inherit
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
